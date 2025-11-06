@@ -1,5 +1,6 @@
 import type { FC } from "react";
-import type { Gif } from "../../data/giftMock";
+import type { Gif } from "../interfaces/gift.interface";
+
 interface Props{
     gifts: Gif[]
 }

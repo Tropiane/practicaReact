@@ -12,6 +12,7 @@ h1 {
   font-style: normal;
   text-align: center;
 }
+
 .contentCenter {
   display: flex;
   flex-direction: column;
@@ -38,6 +39,22 @@ h1 {
 
 .customHeader{
   text-align: center;
+}
+
+.customHeader button{
+  transition: .2s;
+  border-radius: 24px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+.customHeader button:active{
+  transition: .2s;
+  transform: scale(.9);
+  background-color: #000;
+  color: white;
+  border: none;
 }
 .searchContainer {
   display: flex;

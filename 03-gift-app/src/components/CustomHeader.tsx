@@ -1,8 +1,10 @@
+
 interface Props{
     title: string,
     description?: string
 }
-export function CustomHeader({title, description}: Props){
+export const CustomHeader = ({title, description}: Props)=>{
+
     return(
         <div className="customHeader">
             <h1>{title}</h1>
